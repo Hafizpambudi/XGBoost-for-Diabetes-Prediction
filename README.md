@@ -9,9 +9,9 @@ dilakukan oversampling untuk menyamakan jumlah data pada label dataset sehingga 
 ## Pembuatan Model 
 ### Preprocessing 
 didalamnya terdapat imputer untuk menangani data yang bernilai null dan one hot encoder untuk encoding pada data kategorikal 
-## XGboost Classifier
+### XGboost Classifier
 model algoritma machine learning xgboost digunakan dikarenakan model ini memiliki waktu eksekusi yang cepat serta memiliki akurasi yang tinggi. 
 
 ## Tuning 
-## GridsearchCv
+### GridsearchCv
 memakai gridsearch cv untuk melakukan tuning pada model machine learning yang telah dibuat. hal ini untuk mencegah adanya overfitting maupun underfitting serta menaikan akurasi dari model 
